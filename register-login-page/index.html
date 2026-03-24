@@ -16,7 +16,11 @@
         <!--Registracija-->
         <div class="form-container sign-up">
             <form>
-                <h1>Create Account</h1>
+                <div class="form-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Tutorly</span>
+                </div>
+                <h2>Create Account</h2>
                     <div class="role-select-wrapper">
                         <label for="role">Choose role:</label>
                         <select id="role" name="role" class="role-select">
@@ -44,7 +48,11 @@
         <!--Prijava-->
         <div class="form-container sign-in">
             <form>
-                <h1>Welcome Back</h1>
+                <div class="form-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Tutorly</span>
+                </div>
+                    <h2>Welcome Back</h2>
                     <div class="role-select-wrapper">
                         <label for="role">Choose role:</label>
                         <select id="role" name="role" class="role-select">
@@ -73,13 +81,23 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details</p>
+                    <h1>Learn better.<br>Teach better.</h1>
+                    <ul class="benefits">
+                        <li><i class="fa-solid fa-check"></i> Book sessions easily with tokens</li>
+                        <li><i class="fa-solid fa-check"></i> Ask and answer questions on the forum</li>
+                        <li><i class="fa-solid fa-check"></i> Climb the tutor leaderboard</li>
+                    </ul>
+                    <p>Already have an account?</p>
                     <button class="hidden" id="login">Sign In</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Student!</h1>
-                    <p>Register with your personal details</p>
+                    <h1>Welcome back!<br>Keep growing!</h1>
+                    <ul class="benefits">
+                        <li><i class="fa-solid fa-check"></i> Continue your booked sessions</li>
+                        <li><i class="fa-solid fa-check"></i> Track your progress and token balance</li>
+                        <li><i class="fa-solid fa-check"></i> Stay active on the forum and leaderboard</li>
+                    </ul>
+                    <p>New to Tutorly?</p>
                     <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
