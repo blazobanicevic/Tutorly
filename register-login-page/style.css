@@ -250,6 +250,18 @@ za role select
     font-weight: bold;
 }
 
+#forgot-password:hover{
+    transform: scale(1.15);
+    transition:all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#forgot-password:active{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
 .social-icons{
     margin: 20px 0;
 }
