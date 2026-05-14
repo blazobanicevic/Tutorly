@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.form-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-logo i{
+    font-size: 28px;
+    color: #512da8;
+}
+
+.form-logo span{
+    font-size: 30px;
+    font-weight: 800;
+    color: #512da8;
+    letter-spacing: 0.2px;
+}
+
+nav {
+    word-spacing: 300%;
+    align-items: center;
+}
+
+nav a{
+    color: #512da8;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav a:hover{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.current-language{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.current-language img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.current-language span{
+    font-weight: bold;
+}
+
+
