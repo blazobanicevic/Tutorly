@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    position: relative;
+    z-index: 1;
 }
 
 .form-logo{
@@ -14,13 +22,13 @@ header {
 
 .form-logo i{
     font-size: 28px;
-    color: #512da8;
+    color: #ffffff;
 }
 
 .form-logo span{
     font-size: 30px;
     font-weight: 800;
-    color: #512da8;
+    color: #ffffff;
     letter-spacing: 0.2px;
 }
 
@@ -30,7 +38,7 @@ nav {
 }
 
 nav a{
-    color: #512da8;
+    color: #ffffff;
     text-decoration: none;
     font-size: larger;
 }
@@ -57,4 +65,19 @@ nav a:hover{
     font-weight: bold;
 }
 
+#home{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
 
+.diagonal-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #512da8;
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
+    z-index: 0;
+}
