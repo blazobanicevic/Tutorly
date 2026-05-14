@@ -68,7 +68,6 @@ body{
 }
 
 .container button:hover{
-
     background-color: #7b68ee;
     transform: scale(1.15);
     transition:all 0.2s ease;
@@ -76,7 +75,6 @@ body{
 }
 
 .container button:active{
-
     background-color: #5a4bd1;
     transform: scale(0.9);
     cursor: pointer;
